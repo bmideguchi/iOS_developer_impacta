@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'aula8Desafio1' target in the 'aula8Desafio1' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif

@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'aula11Desafio1 - CORREÇÃO DO PROFESSOR' target in the 'aula11Desafio1 - CORREÇÃO DO PROFESSOR' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
