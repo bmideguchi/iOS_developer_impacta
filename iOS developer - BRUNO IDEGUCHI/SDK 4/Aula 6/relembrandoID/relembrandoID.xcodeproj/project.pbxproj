@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25CB7B0717C8226300C8D97F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CB7B0617C8226300C8D97F /* UIKit.framework */; };
+		25CB7B0917C8226300C8D97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CB7B0817C8226300C8D97F /* Foundation.framework */; };
+		25CB7B0B17C8226300C8D97F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CB7B0A17C8226300C8D97F /* CoreGraphics.framework */; };
+		25CB7B1117C8226300C8D97F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25CB7B0F17C8226300C8D97F /* InfoPlist.strings */; };
+		25CB7B1317C8226300C8D97F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB7B1217C8226300C8D97F /* main.m */; };
+		25CB7B1717C8226300C8D97F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB7B1617C8226300C8D97F /* AppDelegate.m */; };
+		25CB7B1917C8226300C8D97F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25CB7B1817C8226300C8D97F /* Default.png */; };
+		25CB7B1B17C8226300C8D97F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25CB7B1A17C8226300C8D97F /* Default@2x.png */; };
+		25CB7B1D17C8226300C8D97F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25CB7B1C17C8226300C8D97F /* Default-568h@2x.png */; };
+		25CB7B2017C8226300C8D97F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CB7B1E17C8226300C8D97F /* MainStoryboard.storyboard */; };
+		25CB7B2317C8226300C8D97F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB7B2217C8226300C8D97F /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25CB7B0317C8226300C8D97F /* relembrandoID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = relembrandoID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CB7B0617C8226300C8D97F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25CB7B0817C8226300C8D97F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25CB7B0A17C8226300C8D97F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25CB7B0E17C8226300C8D97F /* relembrandoID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "relembrandoID-Info.plist"; sourceTree = "<group>"; };
+		25CB7B1017C8226300C8D97F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25CB7B1217C8226300C8D97F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25CB7B1417C8226300C8D97F /* relembrandoID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "relembrandoID-Prefix.pch"; sourceTree = "<group>"; };
+		25CB7B1517C8226300C8D97F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25CB7B1617C8226300C8D97F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25CB7B1817C8226300C8D97F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25CB7B1A17C8226300C8D97F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25CB7B1C17C8226300C8D97F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25CB7B1F17C8226300C8D97F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25CB7B2117C8226300C8D97F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25CB7B2217C8226300C8D97F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25CB7B0017C8226300C8D97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CB7B0717C8226300C8D97F /* UIKit.framework in Frameworks */,
+				25CB7B0917C8226300C8D97F /* Foundation.framework in Frameworks */,
+				25CB7B0B17C8226300C8D97F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25CB7AFA17C8226300C8D97F = {
+			isa = PBXGroup;
+			children = (
+				25CB7B0C17C8226300C8D97F /* relembrandoID */,
+				25CB7B0517C8226300C8D97F /* Frameworks */,
+				25CB7B0417C8226300C8D97F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25CB7B0417C8226300C8D97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25CB7B0317C8226300C8D97F /* relembrandoID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25CB7B0517C8226300C8D97F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25CB7B0617C8226300C8D97F /* UIKit.framework */,
+				25CB7B0817C8226300C8D97F /* Foundation.framework */,
+				25CB7B0A17C8226300C8D97F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25CB7B0C17C8226300C8D97F /* relembrandoID */ = {
+			isa = PBXGroup;
+			children = (
+				25CB7B1517C8226300C8D97F /* AppDelegate.h */,
+				25CB7B1617C8226300C8D97F /* AppDelegate.m */,
+				25CB7B1E17C8226300C8D97F /* MainStoryboard.storyboard */,
+				25CB7B2117C8226300C8D97F /* ViewController.h */,
+				25CB7B2217C8226300C8D97F /* ViewController.m */,
+				25CB7B0D17C8226300C8D97F /* Supporting Files */,
+			);
+			path = relembrandoID;
+			sourceTree = "<group>";
+		};
+		25CB7B0D17C8226300C8D97F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25CB7B0E17C8226300C8D97F /* relembrandoID-Info.plist */,
+				25CB7B0F17C8226300C8D97F /* InfoPlist.strings */,
+				25CB7B1217C8226300C8D97F /* main.m */,
+				25CB7B1417C8226300C8D97F /* relembrandoID-Prefix.pch */,
+				25CB7B1817C8226300C8D97F /* Default.png */,
+				25CB7B1A17C8226300C8D97F /* Default@2x.png */,
+				25CB7B1C17C8226300C8D97F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25CB7B0217C8226300C8D97F /* relembrandoID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25CB7B2617C8226300C8D97F /* Build configuration list for PBXNativeTarget "relembrandoID" */;
+			buildPhases = (
+				25CB7AFF17C8226300C8D97F /* Sources */,
+				25CB7B0017C8226300C8D97F /* Frameworks */,
+				25CB7B0117C8226300C8D97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = relembrandoID;
+			productName = relembrandoID;
+			productReference = 25CB7B0317C8226300C8D97F /* relembrandoID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25CB7AFB17C8226300C8D97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BrunoIdeguchi;
+			};
+			buildConfigurationList = 25CB7AFE17C8226300C8D97F /* Build configuration list for PBXProject "relembrandoID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25CB7AFA17C8226300C8D97F;
+			productRefGroup = 25CB7B0417C8226300C8D97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25CB7B0217C8226300C8D97F /* relembrandoID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25CB7B0117C8226300C8D97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CB7B1117C8226300C8D97F /* InfoPlist.strings in Resources */,
+				25CB7B1917C8226300C8D97F /* Default.png in Resources */,
+				25CB7B1B17C8226300C8D97F /* Default@2x.png in Resources */,
+				25CB7B1D17C8226300C8D97F /* Default-568h@2x.png in Resources */,
+				25CB7B2017C8226300C8D97F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25CB7AFF17C8226300C8D97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CB7B1317C8226300C8D97F /* main.m in Sources */,
+				25CB7B1717C8226300C8D97F /* AppDelegate.m in Sources */,
+				25CB7B2317C8226300C8D97F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25CB7B0F17C8226300C8D97F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25CB7B1017C8226300C8D97F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25CB7B1E17C8226300C8D97F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25CB7B1F17C8226300C8D97F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25CB7B2417C8226300C8D97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		25CB7B2517C8226300C8D97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25CB7B2717C8226300C8D97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "relembrandoID/relembrandoID-Prefix.pch";
+				INFOPLIST_FILE = "relembrandoID/relembrandoID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25CB7B2817C8226300C8D97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "relembrandoID/relembrandoID-Prefix.pch";
+				INFOPLIST_FILE = "relembrandoID/relembrandoID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25CB7AFE17C8226300C8D97F /* Build configuration list for PBXProject "relembrandoID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CB7B2417C8226300C8D97F /* Debug */,
+				25CB7B2517C8226300C8D97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25CB7B2617C8226300C8D97F /* Build configuration list for PBXNativeTarget "relembrandoID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CB7B2717C8226300C8D97F /* Debug */,
+				25CB7B2817C8226300C8D97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25CB7AFB17C8226300C8D97F /* Project object */;
+}

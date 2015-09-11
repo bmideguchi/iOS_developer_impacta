@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2CDCC67177265CD00F47695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CDCC66177265CD00F47695 /* UIKit.framework */; };
+		A2CDCC69177265CD00F47695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CDCC68177265CD00F47695 /* Foundation.framework */; };
+		A2CDCC6B177265CD00F47695 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CDCC6A177265CD00F47695 /* CoreGraphics.framework */; };
+		A2CDCC71177265CD00F47695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC6F177265CD00F47695 /* InfoPlist.strings */; };
+		A2CDCC73177265CD00F47695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CDCC72177265CD00F47695 /* main.m */; };
+		A2CDCC77177265CD00F47695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CDCC76177265CD00F47695 /* AppDelegate.m */; };
+		A2CDCC79177265CD00F47695 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC78177265CD00F47695 /* Default.png */; };
+		A2CDCC7B177265CD00F47695 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC7A177265CD00F47695 /* Default@2x.png */; };
+		A2CDCC7D177265CD00F47695 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC7C177265CD00F47695 /* Default-568h@2x.png */; };
+		A2CDCC80177265CD00F47695 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CDCC7F177265CD00F47695 /* ViewController.m */; };
+		A2CDCC83177265CE00F47695 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC81177265CD00F47695 /* ViewController.xib */; };
+		A2CDCC92177266AE00F47695 /* bravo.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC8A177266AE00F47695 /* bravo.png */; };
+		A2CDCC93177266AE00F47695 /* bravo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC8B177266AE00F47695 /* bravo@2x.png */; };
+		A2CDCC94177266AE00F47695 /* feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC8C177266AE00F47695 /* feliz.png */; };
+		A2CDCC95177266AE00F47695 /* feliz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC8D177266AE00F47695 /* feliz@2x.png */; };
+		A2CDCC96177266AE00F47695 /* meme.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC8E177266AE00F47695 /* meme.png */; };
+		A2CDCC97177266AE00F47695 /* meme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC8F177266AE00F47695 /* meme@2x.png */; };
+		A2CDCC98177266AE00F47695 /* triste.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC90177266AE00F47695 /* triste.png */; };
+		A2CDCC99177266AE00F47695 /* triste@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CDCC91177266AE00F47695 /* triste@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2CDCC63177265CD00F47695 /* DesafioPrecoPassagem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioPrecoPassagem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CDCC66177265CD00F47695 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2CDCC68177265CD00F47695 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2CDCC6A177265CD00F47695 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2CDCC6E177265CD00F47695 /* DesafioPrecoPassagem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioPrecoPassagem-Info.plist"; sourceTree = "<group>"; };
+		A2CDCC70177265CD00F47695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2CDCC72177265CD00F47695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2CDCC74177265CD00F47695 /* DesafioPrecoPassagem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioPrecoPassagem-Prefix.pch"; sourceTree = "<group>"; };
+		A2CDCC75177265CD00F47695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2CDCC76177265CD00F47695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2CDCC78177265CD00F47695 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2CDCC7A177265CD00F47695 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2CDCC7C177265CD00F47695 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2CDCC7E177265CD00F47695 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2CDCC7F177265CD00F47695 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2CDCC82177265CE00F47695 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A2CDCC8A177266AE00F47695 /* bravo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bravo.png; sourceTree = "<group>"; };
+		A2CDCC8B177266AE00F47695 /* bravo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bravo@2x.png"; sourceTree = "<group>"; };
+		A2CDCC8C177266AE00F47695 /* feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feliz.png; sourceTree = "<group>"; };
+		A2CDCC8D177266AE00F47695 /* feliz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feliz@2x.png"; sourceTree = "<group>"; };
+		A2CDCC8E177266AE00F47695 /* meme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meme.png; sourceTree = "<group>"; };
+		A2CDCC8F177266AE00F47695 /* meme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meme@2x.png"; sourceTree = "<group>"; };
+		A2CDCC90177266AE00F47695 /* triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triste.png; sourceTree = "<group>"; };
+		A2CDCC91177266AE00F47695 /* triste@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triste@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CDCC60177265CD00F47695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CDCC67177265CD00F47695 /* UIKit.framework in Frameworks */,
+				A2CDCC69177265CD00F47695 /* Foundation.framework in Frameworks */,
+				A2CDCC6B177265CD00F47695 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2CDCC5A177265CD00F47695 = {
+			isa = PBXGroup;
+			children = (
+				A2CDCC6C177265CD00F47695 /* DesafioPrecoPassagem */,
+				A2CDCC65177265CD00F47695 /* Frameworks */,
+				A2CDCC64177265CD00F47695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CDCC64177265CD00F47695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDCC63177265CD00F47695 /* DesafioPrecoPassagem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CDCC65177265CD00F47695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDCC66177265CD00F47695 /* UIKit.framework */,
+				A2CDCC68177265CD00F47695 /* Foundation.framework */,
+				A2CDCC6A177265CD00F47695 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2CDCC6C177265CD00F47695 /* DesafioPrecoPassagem */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDCC75177265CD00F47695 /* AppDelegate.h */,
+				A2CDCC76177265CD00F47695 /* AppDelegate.m */,
+				A2CDCC7E177265CD00F47695 /* ViewController.h */,
+				A2CDCC7F177265CD00F47695 /* ViewController.m */,
+				A2CDCC81177265CD00F47695 /* ViewController.xib */,
+				A2CDCC89177266AE00F47695 /* AssetsImageView */,
+				A2CDCC6D177265CD00F47695 /* Supporting Files */,
+			);
+			path = DesafioPrecoPassagem;
+			sourceTree = "<group>";
+		};
+		A2CDCC6D177265CD00F47695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDCC6E177265CD00F47695 /* DesafioPrecoPassagem-Info.plist */,
+				A2CDCC6F177265CD00F47695 /* InfoPlist.strings */,
+				A2CDCC72177265CD00F47695 /* main.m */,
+				A2CDCC74177265CD00F47695 /* DesafioPrecoPassagem-Prefix.pch */,
+				A2CDCC78177265CD00F47695 /* Default.png */,
+				A2CDCC7A177265CD00F47695 /* Default@2x.png */,
+				A2CDCC7C177265CD00F47695 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2CDCC89177266AE00F47695 /* AssetsImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDCC8A177266AE00F47695 /* bravo.png */,
+				A2CDCC8B177266AE00F47695 /* bravo@2x.png */,
+				A2CDCC8C177266AE00F47695 /* feliz.png */,
+				A2CDCC8D177266AE00F47695 /* feliz@2x.png */,
+				A2CDCC8E177266AE00F47695 /* meme.png */,
+				A2CDCC8F177266AE00F47695 /* meme@2x.png */,
+				A2CDCC90177266AE00F47695 /* triste.png */,
+				A2CDCC91177266AE00F47695 /* triste@2x.png */,
+			);
+			path = AssetsImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CDCC62177265CD00F47695 /* DesafioPrecoPassagem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CDCC86177265CE00F47695 /* Build configuration list for PBXNativeTarget "DesafioPrecoPassagem" */;
+			buildPhases = (
+				A2CDCC5F177265CD00F47695 /* Sources */,
+				A2CDCC60177265CD00F47695 /* Frameworks */,
+				A2CDCC61177265CD00F47695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioPrecoPassagem;
+			productName = DesafioPrecoPassagem;
+			productReference = A2CDCC63177265CD00F47695 /* DesafioPrecoPassagem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CDCC5B177265CD00F47695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A2CDCC5E177265CD00F47695 /* Build configuration list for PBXProject "DesafioPrecoPassagem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2CDCC5A177265CD00F47695;
+			productRefGroup = A2CDCC64177265CD00F47695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CDCC62177265CD00F47695 /* DesafioPrecoPassagem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CDCC61177265CD00F47695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CDCC71177265CD00F47695 /* InfoPlist.strings in Resources */,
+				A2CDCC79177265CD00F47695 /* Default.png in Resources */,
+				A2CDCC7B177265CD00F47695 /* Default@2x.png in Resources */,
+				A2CDCC7D177265CD00F47695 /* Default-568h@2x.png in Resources */,
+				A2CDCC83177265CE00F47695 /* ViewController.xib in Resources */,
+				A2CDCC92177266AE00F47695 /* bravo.png in Resources */,
+				A2CDCC93177266AE00F47695 /* bravo@2x.png in Resources */,
+				A2CDCC94177266AE00F47695 /* feliz.png in Resources */,
+				A2CDCC95177266AE00F47695 /* feliz@2x.png in Resources */,
+				A2CDCC96177266AE00F47695 /* meme.png in Resources */,
+				A2CDCC97177266AE00F47695 /* meme@2x.png in Resources */,
+				A2CDCC98177266AE00F47695 /* triste.png in Resources */,
+				A2CDCC99177266AE00F47695 /* triste@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CDCC5F177265CD00F47695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CDCC73177265CD00F47695 /* main.m in Sources */,
+				A2CDCC77177265CD00F47695 /* AppDelegate.m in Sources */,
+				A2CDCC80177265CD00F47695 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2CDCC6F177265CD00F47695 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CDCC70177265CD00F47695 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2CDCC81177265CD00F47695 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CDCC82177265CE00F47695 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2CDCC84177265CE00F47695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2CDCC85177265CE00F47695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2CDCC87177265CE00F47695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioPrecoPassagem/DesafioPrecoPassagem-Prefix.pch";
+				INFOPLIST_FILE = "DesafioPrecoPassagem/DesafioPrecoPassagem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2CDCC88177265CE00F47695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioPrecoPassagem/DesafioPrecoPassagem-Prefix.pch";
+				INFOPLIST_FILE = "DesafioPrecoPassagem/DesafioPrecoPassagem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CDCC5E177265CD00F47695 /* Build configuration list for PBXProject "DesafioPrecoPassagem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CDCC84177265CE00F47695 /* Debug */,
+				A2CDCC85177265CE00F47695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CDCC86177265CE00F47695 /* Build configuration list for PBXNativeTarget "DesafioPrecoPassagem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CDCC87177265CE00F47695 /* Debug */,
+				A2CDCC88177265CE00F47695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2CDCC5B177265CD00F47695 /* Project object */;
+}

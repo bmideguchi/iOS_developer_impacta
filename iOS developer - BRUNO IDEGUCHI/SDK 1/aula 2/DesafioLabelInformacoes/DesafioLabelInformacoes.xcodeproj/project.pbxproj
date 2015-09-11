@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2F80CCF175D72C000AD86BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F80CCE175D72C000AD86BE /* UIKit.framework */; };
+		A2F80CD1175D72C000AD86BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F80CD0175D72C000AD86BE /* Foundation.framework */; };
+		A2F80CD3175D72C000AD86BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F80CD2175D72C000AD86BE /* CoreGraphics.framework */; };
+		A2F80CD9175D72C000AD86BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2F80CD7175D72C000AD86BE /* InfoPlist.strings */; };
+		A2F80CDB175D72C000AD86BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F80CDA175D72C000AD86BE /* main.m */; };
+		A2F80CDF175D72C000AD86BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F80CDE175D72C000AD86BE /* AppDelegate.m */; };
+		A2F80CE1175D72C100AD86BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2F80CE0175D72C100AD86BE /* Default.png */; };
+		A2F80CE3175D72C100AD86BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2F80CE2175D72C100AD86BE /* Default@2x.png */; };
+		A2F80CE5175D72C100AD86BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2F80CE4175D72C100AD86BE /* Default-568h@2x.png */; };
+		A2F80CEE175D72F000AD86BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F80CEC175D72F000AD86BE /* ViewController.m */; };
+		A2F80CEF175D72F000AD86BE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F80CED175D72F000AD86BE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2F80CCB175D72C000AD86BE /* DesafioLabelInformacoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioLabelInformacoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F80CCE175D72C000AD86BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2F80CD0175D72C000AD86BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2F80CD2175D72C000AD86BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2F80CD6175D72C000AD86BE /* DesafioLabelInformacoes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioLabelInformacoes-Info.plist"; sourceTree = "<group>"; };
+		A2F80CD8175D72C000AD86BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2F80CDA175D72C000AD86BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2F80CDC175D72C000AD86BE /* DesafioLabelInformacoes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioLabelInformacoes-Prefix.pch"; sourceTree = "<group>"; };
+		A2F80CDD175D72C000AD86BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2F80CDE175D72C000AD86BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2F80CE0175D72C100AD86BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2F80CE2175D72C100AD86BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2F80CE4175D72C100AD86BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2F80CEB175D72F000AD86BE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = DesafioLabelInformacoes/ViewController.h; sourceTree = "<group>"; };
+		A2F80CEC175D72F000AD86BE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = DesafioLabelInformacoes/ViewController.m; sourceTree = "<group>"; };
+		A2F80CED175D72F000AD86BE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = DesafioLabelInformacoes/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F80CC8175D72C000AD86BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F80CCF175D72C000AD86BE /* UIKit.framework in Frameworks */,
+				A2F80CD1175D72C000AD86BE /* Foundation.framework in Frameworks */,
+				A2F80CD3175D72C000AD86BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2F80CC2175D72C000AD86BE = {
+			isa = PBXGroup;
+			children = (
+				A2F80CEB175D72F000AD86BE /* ViewController.h */,
+				A2F80CEC175D72F000AD86BE /* ViewController.m */,
+				A2F80CED175D72F000AD86BE /* ViewController.xib */,
+				A2F80CD4175D72C000AD86BE /* DesafioLabelInformacoes */,
+				A2F80CCD175D72C000AD86BE /* Frameworks */,
+				A2F80CCC175D72C000AD86BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F80CCC175D72C000AD86BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F80CCB175D72C000AD86BE /* DesafioLabelInformacoes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F80CCD175D72C000AD86BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F80CCE175D72C000AD86BE /* UIKit.framework */,
+				A2F80CD0175D72C000AD86BE /* Foundation.framework */,
+				A2F80CD2175D72C000AD86BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F80CD4175D72C000AD86BE /* DesafioLabelInformacoes */ = {
+			isa = PBXGroup;
+			children = (
+				A2F80CDD175D72C000AD86BE /* AppDelegate.h */,
+				A2F80CDE175D72C000AD86BE /* AppDelegate.m */,
+				A2F80CD5175D72C000AD86BE /* Supporting Files */,
+			);
+			path = DesafioLabelInformacoes;
+			sourceTree = "<group>";
+		};
+		A2F80CD5175D72C000AD86BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2F80CD6175D72C000AD86BE /* DesafioLabelInformacoes-Info.plist */,
+				A2F80CD7175D72C000AD86BE /* InfoPlist.strings */,
+				A2F80CDA175D72C000AD86BE /* main.m */,
+				A2F80CDC175D72C000AD86BE /* DesafioLabelInformacoes-Prefix.pch */,
+				A2F80CE0175D72C100AD86BE /* Default.png */,
+				A2F80CE2175D72C100AD86BE /* Default@2x.png */,
+				A2F80CE4175D72C100AD86BE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F80CCA175D72C000AD86BE /* DesafioLabelInformacoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F80CE8175D72C100AD86BE /* Build configuration list for PBXNativeTarget "DesafioLabelInformacoes" */;
+			buildPhases = (
+				A2F80CC7175D72C000AD86BE /* Sources */,
+				A2F80CC8175D72C000AD86BE /* Frameworks */,
+				A2F80CC9175D72C000AD86BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioLabelInformacoes;
+			productName = DesafioLabelInformacoes;
+			productReference = A2F80CCB175D72C000AD86BE /* DesafioLabelInformacoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F80CC3175D72C000AD86BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A2F80CC6175D72C000AD86BE /* Build configuration list for PBXProject "DesafioLabelInformacoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2F80CC2175D72C000AD86BE;
+			productRefGroup = A2F80CCC175D72C000AD86BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F80CCA175D72C000AD86BE /* DesafioLabelInformacoes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F80CC9175D72C000AD86BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F80CD9175D72C000AD86BE /* InfoPlist.strings in Resources */,
+				A2F80CE1175D72C100AD86BE /* Default.png in Resources */,
+				A2F80CE3175D72C100AD86BE /* Default@2x.png in Resources */,
+				A2F80CE5175D72C100AD86BE /* Default-568h@2x.png in Resources */,
+				A2F80CEF175D72F000AD86BE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F80CC7175D72C000AD86BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F80CDB175D72C000AD86BE /* main.m in Sources */,
+				A2F80CDF175D72C000AD86BE /* AppDelegate.m in Sources */,
+				A2F80CEE175D72F000AD86BE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2F80CD7175D72C000AD86BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F80CD8175D72C000AD86BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F80CE6175D72C100AD86BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2F80CE7175D72C100AD86BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F80CE9175D72C100AD86BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioLabelInformacoes/DesafioLabelInformacoes-Prefix.pch";
+				INFOPLIST_FILE = "DesafioLabelInformacoes/DesafioLabelInformacoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2F80CEA175D72C100AD86BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioLabelInformacoes/DesafioLabelInformacoes-Prefix.pch";
+				INFOPLIST_FILE = "DesafioLabelInformacoes/DesafioLabelInformacoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F80CC6175D72C000AD86BE /* Build configuration list for PBXProject "DesafioLabelInformacoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F80CE6175D72C100AD86BE /* Debug */,
+				A2F80CE7175D72C100AD86BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F80CE8175D72C100AD86BE /* Build configuration list for PBXNativeTarget "DesafioLabelInformacoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F80CE9175D72C100AD86BE /* Debug */,
+				A2F80CEA175D72C100AD86BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2F80CC3175D72C000AD86BE /* Project object */;
+}

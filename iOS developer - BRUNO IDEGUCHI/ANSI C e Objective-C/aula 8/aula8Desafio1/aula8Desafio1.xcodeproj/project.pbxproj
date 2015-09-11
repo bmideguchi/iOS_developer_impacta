@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253C7690174DA6F300B28610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253C768F174DA6F300B28610 /* Foundation.framework */; };
+		253C7693174DA6F300B28610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C7692174DA6F300B28610 /* main.m */; };
+		253C7697174DA6F300B28610 /* aula8Desafio1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 253C7696174DA6F300B28610 /* aula8Desafio1.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		253C768A174DA6F300B28610 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				253C7697174DA6F300B28610 /* aula8Desafio1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		253C768C174DA6F300B28610 /* aula8Desafio1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aula8Desafio1; sourceTree = BUILT_PRODUCTS_DIR; };
+		253C768F174DA6F300B28610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		253C7692174DA6F300B28610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		253C7695174DA6F300B28610 /* aula8Desafio1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aula8Desafio1-Prefix.pch"; sourceTree = "<group>"; };
+		253C7696174DA6F300B28610 /* aula8Desafio1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = aula8Desafio1.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253C7689174DA6F300B28610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C7690174DA6F300B28610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253C7683174DA6F300B28610 = {
+			isa = PBXGroup;
+			children = (
+				253C7691174DA6F300B28610 /* aula8Desafio1 */,
+				253C768E174DA6F300B28610 /* Frameworks */,
+				253C768D174DA6F300B28610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		253C768D174DA6F300B28610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253C768C174DA6F300B28610 /* aula8Desafio1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		253C768E174DA6F300B28610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				253C768F174DA6F300B28610 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		253C7691174DA6F300B28610 /* aula8Desafio1 */ = {
+			isa = PBXGroup;
+			children = (
+				253C7692174DA6F300B28610 /* main.m */,
+				253C7696174DA6F300B28610 /* aula8Desafio1.1 */,
+				253C7694174DA6F300B28610 /* Supporting Files */,
+			);
+			path = aula8Desafio1;
+			sourceTree = "<group>";
+		};
+		253C7694174DA6F300B28610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				253C7695174DA6F300B28610 /* aula8Desafio1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		253C768B174DA6F300B28610 /* aula8Desafio1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253C769A174DA6F300B28610 /* Build configuration list for PBXNativeTarget "aula8Desafio1" */;
+			buildPhases = (
+				253C7688174DA6F300B28610 /* Sources */,
+				253C7689174DA6F300B28610 /* Frameworks */,
+				253C768A174DA6F300B28610 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aula8Desafio1;
+			productName = aula8Desafio1;
+			productReference = 253C768C174DA6F300B28610 /* aula8Desafio1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		253C7684174DA6F300B28610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BrunoIdeguchi;
+			};
+			buildConfigurationList = 253C7687174DA6F300B28610 /* Build configuration list for PBXProject "aula8Desafio1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 253C7683174DA6F300B28610;
+			productRefGroup = 253C768D174DA6F300B28610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				253C768B174DA6F300B28610 /* aula8Desafio1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253C7688174DA6F300B28610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C7693174DA6F300B28610 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		253C7698174DA6F300B28610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		253C7699174DA6F300B28610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		253C769B174DA6F300B28610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aula8Desafio1/aula8Desafio1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		253C769C174DA6F300B28610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aula8Desafio1/aula8Desafio1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253C7687174DA6F300B28610 /* Build configuration list for PBXProject "aula8Desafio1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253C7698174DA6F300B28610 /* Debug */,
+				253C7699174DA6F300B28610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253C769A174DA6F300B28610 /* Build configuration list for PBXNativeTarget "aula8Desafio1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253C769B174DA6F300B28610 /* Debug */,
+				253C769C174DA6F300B28610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 253C7684174DA6F300B28610 /* Project object */;
+}

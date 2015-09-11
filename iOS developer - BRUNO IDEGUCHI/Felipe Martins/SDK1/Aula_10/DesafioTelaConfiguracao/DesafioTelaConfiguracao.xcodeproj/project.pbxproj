@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B6264817792A5B004E1B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B6264717792A5B004E1B9E /* UIKit.framework */; };
+		A2B6264A17792A5B004E1B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B6264917792A5B004E1B9E /* Foundation.framework */; };
+		A2B6264C17792A5B004E1B9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B6264B17792A5B004E1B9E /* CoreGraphics.framework */; };
+		A2B6265217792A5B004E1B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B6265017792A5B004E1B9E /* InfoPlist.strings */; };
+		A2B6265417792A5B004E1B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B6265317792A5B004E1B9E /* main.m */; };
+		A2B6265817792A5B004E1B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B6265717792A5B004E1B9E /* AppDelegate.m */; };
+		A2B6265A17792A5B004E1B9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B6265917792A5B004E1B9E /* Default.png */; };
+		A2B6265C17792A5B004E1B9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B6265B17792A5B004E1B9E /* Default@2x.png */; };
+		A2B6265E17792A5B004E1B9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B6265D17792A5B004E1B9E /* Default-568h@2x.png */; };
+		A2B6266117792A5B004E1B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B6266017792A5B004E1B9E /* ViewController.m */; };
+		A2B6266417792A5B004E1B9E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B6266217792A5B004E1B9E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2B6264417792A5B004E1B9E /* DesafioTelaConfiguracao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioTelaConfiguracao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B6264717792A5B004E1B9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2B6264917792A5B004E1B9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2B6264B17792A5B004E1B9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2B6264F17792A5B004E1B9E /* DesafioTelaConfiguracao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioTelaConfiguracao-Info.plist"; sourceTree = "<group>"; };
+		A2B6265117792A5B004E1B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B6265317792A5B004E1B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2B6265517792A5B004E1B9E /* DesafioTelaConfiguracao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioTelaConfiguracao-Prefix.pch"; sourceTree = "<group>"; };
+		A2B6265617792A5B004E1B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2B6265717792A5B004E1B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2B6265917792A5B004E1B9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2B6265B17792A5B004E1B9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2B6265D17792A5B004E1B9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2B6265F17792A5B004E1B9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2B6266017792A5B004E1B9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2B6266317792A5B004E1B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B6264117792A5B004E1B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B6264817792A5B004E1B9E /* UIKit.framework in Frameworks */,
+				A2B6264A17792A5B004E1B9E /* Foundation.framework in Frameworks */,
+				A2B6264C17792A5B004E1B9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B6263B17792A5B004E1B9E = {
+			isa = PBXGroup;
+			children = (
+				A2B6264D17792A5B004E1B9E /* DesafioTelaConfiguracao */,
+				A2B6264617792A5B004E1B9E /* Frameworks */,
+				A2B6264517792A5B004E1B9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B6264517792A5B004E1B9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B6264417792A5B004E1B9E /* DesafioTelaConfiguracao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B6264617792A5B004E1B9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2B6264717792A5B004E1B9E /* UIKit.framework */,
+				A2B6264917792A5B004E1B9E /* Foundation.framework */,
+				A2B6264B17792A5B004E1B9E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2B6264D17792A5B004E1B9E /* DesafioTelaConfiguracao */ = {
+			isa = PBXGroup;
+			children = (
+				A2B6265617792A5B004E1B9E /* AppDelegate.h */,
+				A2B6265717792A5B004E1B9E /* AppDelegate.m */,
+				A2B6265F17792A5B004E1B9E /* ViewController.h */,
+				A2B6266017792A5B004E1B9E /* ViewController.m */,
+				A2B6266217792A5B004E1B9E /* ViewController.xib */,
+				A2B6264E17792A5B004E1B9E /* Supporting Files */,
+			);
+			path = DesafioTelaConfiguracao;
+			sourceTree = "<group>";
+		};
+		A2B6264E17792A5B004E1B9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B6264F17792A5B004E1B9E /* DesafioTelaConfiguracao-Info.plist */,
+				A2B6265017792A5B004E1B9E /* InfoPlist.strings */,
+				A2B6265317792A5B004E1B9E /* main.m */,
+				A2B6265517792A5B004E1B9E /* DesafioTelaConfiguracao-Prefix.pch */,
+				A2B6265917792A5B004E1B9E /* Default.png */,
+				A2B6265B17792A5B004E1B9E /* Default@2x.png */,
+				A2B6265D17792A5B004E1B9E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B6264317792A5B004E1B9E /* DesafioTelaConfiguracao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B6266717792A5B004E1B9E /* Build configuration list for PBXNativeTarget "DesafioTelaConfiguracao" */;
+			buildPhases = (
+				A2B6264017792A5B004E1B9E /* Sources */,
+				A2B6264117792A5B004E1B9E /* Frameworks */,
+				A2B6264217792A5B004E1B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioTelaConfiguracao;
+			productName = DesafioTelaConfiguracao;
+			productReference = A2B6264417792A5B004E1B9E /* DesafioTelaConfiguracao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B6263C17792A5B004E1B9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A2B6263F17792A5B004E1B9E /* Build configuration list for PBXProject "DesafioTelaConfiguracao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2B6263B17792A5B004E1B9E;
+			productRefGroup = A2B6264517792A5B004E1B9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B6264317792A5B004E1B9E /* DesafioTelaConfiguracao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B6264217792A5B004E1B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B6265217792A5B004E1B9E /* InfoPlist.strings in Resources */,
+				A2B6265A17792A5B004E1B9E /* Default.png in Resources */,
+				A2B6265C17792A5B004E1B9E /* Default@2x.png in Resources */,
+				A2B6265E17792A5B004E1B9E /* Default-568h@2x.png in Resources */,
+				A2B6266417792A5B004E1B9E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B6264017792A5B004E1B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B6265417792A5B004E1B9E /* main.m in Sources */,
+				A2B6265817792A5B004E1B9E /* AppDelegate.m in Sources */,
+				A2B6266117792A5B004E1B9E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2B6265017792A5B004E1B9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B6265117792A5B004E1B9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2B6266217792A5B004E1B9E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B6266317792A5B004E1B9E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B6266517792A5B004E1B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2B6266617792A5B004E1B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B6266817792A5B004E1B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioTelaConfiguracao/DesafioTelaConfiguracao-Prefix.pch";
+				INFOPLIST_FILE = "DesafioTelaConfiguracao/DesafioTelaConfiguracao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2B6266917792A5B004E1B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioTelaConfiguracao/DesafioTelaConfiguracao-Prefix.pch";
+				INFOPLIST_FILE = "DesafioTelaConfiguracao/DesafioTelaConfiguracao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B6263F17792A5B004E1B9E /* Build configuration list for PBXProject "DesafioTelaConfiguracao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B6266517792A5B004E1B9E /* Debug */,
+				A2B6266617792A5B004E1B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B6266717792A5B004E1B9E /* Build configuration list for PBXNativeTarget "DesafioTelaConfiguracao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B6266817792A5B004E1B9E /* Debug */,
+				A2B6266917792A5B004E1B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B6263C17792A5B004E1B9E /* Project object */;
+}

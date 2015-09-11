@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'declaredProperties' target in the 'declaredProperties' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

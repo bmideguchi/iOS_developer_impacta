@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D1D044178B8E6A007CD4BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D1D043178B8E6A007CD4BC /* UIKit.framework */; };
+		25D1D046178B8E6A007CD4BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D1D045178B8E6A007CD4BC /* Foundation.framework */; };
+		25D1D048178B8E6A007CD4BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D1D047178B8E6A007CD4BC /* CoreGraphics.framework */; };
+		25D1D04E178B8E6A007CD4BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25D1D04C178B8E6A007CD4BC /* InfoPlist.strings */; };
+		25D1D050178B8E6A007CD4BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1D04F178B8E6A007CD4BC /* main.m */; };
+		25D1D054178B8E6A007CD4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1D053178B8E6A007CD4BC /* AppDelegate.m */; };
+		25D1D056178B8E6A007CD4BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D1D055178B8E6A007CD4BC /* Default.png */; };
+		25D1D058178B8E6A007CD4BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D1D057178B8E6A007CD4BC /* Default@2x.png */; };
+		25D1D05A178B8E6A007CD4BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D1D059178B8E6A007CD4BC /* Default-568h@2x.png */; };
+		25D1D05D178B8E6A007CD4BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D1D05B178B8E6A007CD4BC /* MainStoryboard.storyboard */; };
+		25D1D060178B8E6A007CD4BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1D05F178B8E6A007CD4BC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D1D040178B8E6A007CD4BC /* desafioSalvaLembretes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioSalvaLembretes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D1D043178B8E6A007CD4BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25D1D045178B8E6A007CD4BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25D1D047178B8E6A007CD4BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25D1D04B178B8E6A007CD4BC /* desafioSalvaLembretes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafioSalvaLembretes-Info.plist"; sourceTree = "<group>"; };
+		25D1D04D178B8E6A007CD4BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25D1D04F178B8E6A007CD4BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25D1D051178B8E6A007CD4BC /* desafioSalvaLembretes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desafioSalvaLembretes-Prefix.pch"; sourceTree = "<group>"; };
+		25D1D052178B8E6A007CD4BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25D1D053178B8E6A007CD4BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25D1D055178B8E6A007CD4BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25D1D057178B8E6A007CD4BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25D1D059178B8E6A007CD4BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25D1D05C178B8E6A007CD4BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25D1D05E178B8E6A007CD4BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25D1D05F178B8E6A007CD4BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D1D03D178B8E6A007CD4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D1D044178B8E6A007CD4BC /* UIKit.framework in Frameworks */,
+				25D1D046178B8E6A007CD4BC /* Foundation.framework in Frameworks */,
+				25D1D048178B8E6A007CD4BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D1D037178B8E69007CD4BC = {
+			isa = PBXGroup;
+			children = (
+				25D1D049178B8E6A007CD4BC /* desafioSalvaLembretes */,
+				25D1D042178B8E6A007CD4BC /* Frameworks */,
+				25D1D041178B8E6A007CD4BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25D1D041178B8E6A007CD4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D1D040178B8E6A007CD4BC /* desafioSalvaLembretes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D1D042178B8E6A007CD4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D1D043178B8E6A007CD4BC /* UIKit.framework */,
+				25D1D045178B8E6A007CD4BC /* Foundation.framework */,
+				25D1D047178B8E6A007CD4BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D1D049178B8E6A007CD4BC /* desafioSalvaLembretes */ = {
+			isa = PBXGroup;
+			children = (
+				25D1D052178B8E6A007CD4BC /* AppDelegate.h */,
+				25D1D053178B8E6A007CD4BC /* AppDelegate.m */,
+				25D1D05B178B8E6A007CD4BC /* MainStoryboard.storyboard */,
+				25D1D05E178B8E6A007CD4BC /* ViewController.h */,
+				25D1D05F178B8E6A007CD4BC /* ViewController.m */,
+				25D1D04A178B8E6A007CD4BC /* Supporting Files */,
+			);
+			path = desafioSalvaLembretes;
+			sourceTree = "<group>";
+		};
+		25D1D04A178B8E6A007CD4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D1D04B178B8E6A007CD4BC /* desafioSalvaLembretes-Info.plist */,
+				25D1D04C178B8E6A007CD4BC /* InfoPlist.strings */,
+				25D1D04F178B8E6A007CD4BC /* main.m */,
+				25D1D051178B8E6A007CD4BC /* desafioSalvaLembretes-Prefix.pch */,
+				25D1D055178B8E6A007CD4BC /* Default.png */,
+				25D1D057178B8E6A007CD4BC /* Default@2x.png */,
+				25D1D059178B8E6A007CD4BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D1D03F178B8E6A007CD4BC /* desafioSalvaLembretes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D1D063178B8E6A007CD4BC /* Build configuration list for PBXNativeTarget "desafioSalvaLembretes" */;
+			buildPhases = (
+				25D1D03C178B8E6A007CD4BC /* Sources */,
+				25D1D03D178B8E6A007CD4BC /* Frameworks */,
+				25D1D03E178B8E6A007CD4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioSalvaLembretes;
+			productName = desafioSalvaLembretes;
+			productReference = 25D1D040178B8E6A007CD4BC /* desafioSalvaLembretes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D1D038178B8E69007CD4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BrunoIdeguchi;
+			};
+			buildConfigurationList = 25D1D03B178B8E69007CD4BC /* Build configuration list for PBXProject "desafioSalvaLembretes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25D1D037178B8E69007CD4BC;
+			productRefGroup = 25D1D041178B8E6A007CD4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D1D03F178B8E6A007CD4BC /* desafioSalvaLembretes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D1D03E178B8E6A007CD4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D1D04E178B8E6A007CD4BC /* InfoPlist.strings in Resources */,
+				25D1D056178B8E6A007CD4BC /* Default.png in Resources */,
+				25D1D058178B8E6A007CD4BC /* Default@2x.png in Resources */,
+				25D1D05A178B8E6A007CD4BC /* Default-568h@2x.png in Resources */,
+				25D1D05D178B8E6A007CD4BC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D1D03C178B8E6A007CD4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D1D050178B8E6A007CD4BC /* main.m in Sources */,
+				25D1D054178B8E6A007CD4BC /* AppDelegate.m in Sources */,
+				25D1D060178B8E6A007CD4BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25D1D04C178B8E6A007CD4BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D1D04D178B8E6A007CD4BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25D1D05B178B8E6A007CD4BC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D1D05C178B8E6A007CD4BC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25D1D061178B8E6A007CD4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25D1D062178B8E6A007CD4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D1D064178B8E6A007CD4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioSalvaLembretes/desafioSalvaLembretes-Prefix.pch";
+				INFOPLIST_FILE = "desafioSalvaLembretes/desafioSalvaLembretes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25D1D065178B8E6A007CD4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioSalvaLembretes/desafioSalvaLembretes-Prefix.pch";
+				INFOPLIST_FILE = "desafioSalvaLembretes/desafioSalvaLembretes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D1D03B178B8E69007CD4BC /* Build configuration list for PBXProject "desafioSalvaLembretes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D1D061178B8E6A007CD4BC /* Debug */,
+				25D1D062178B8E6A007CD4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D1D063178B8E6A007CD4BC /* Build configuration list for PBXNativeTarget "desafioSalvaLembretes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D1D064178B8E6A007CD4BC /* Debug */,
+				25D1D065178B8E6A007CD4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25D1D038178B8E69007CD4BC /* Project object */;
+}

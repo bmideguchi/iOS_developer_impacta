@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23DF884179751A500B6A9BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23DF883179751A500B6A9BE /* UIKit.framework */; };
+		A23DF886179751A500B6A9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23DF885179751A500B6A9BE /* Foundation.framework */; };
+		A23DF888179751A500B6A9BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23DF887179751A500B6A9BE /* CoreGraphics.framework */; };
+		A23DF88E179751A500B6A9BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A23DF88C179751A500B6A9BE /* InfoPlist.strings */; };
+		A23DF890179751A500B6A9BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DF88F179751A500B6A9BE /* main.m */; };
+		A23DF894179751A500B6A9BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DF893179751A500B6A9BE /* AppDelegate.m */; };
+		A23DF896179751A500B6A9BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A23DF895179751A500B6A9BE /* Default.png */; };
+		A23DF898179751A500B6A9BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A23DF897179751A500B6A9BE /* Default@2x.png */; };
+		A23DF89A179751A500B6A9BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A23DF899179751A500B6A9BE /* Default-568h@2x.png */; };
+		A23DF89D179751A500B6A9BE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23DF89B179751A500B6A9BE /* MainStoryboard.storyboard */; };
+		A23DF8A0179751A500B6A9BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DF89F179751A500B6A9BE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A23DF880179751A500B6A9BE /* DesafioMiniNavegador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioMiniNavegador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23DF883179751A500B6A9BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A23DF885179751A500B6A9BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A23DF887179751A500B6A9BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A23DF88B179751A500B6A9BE /* DesafioMiniNavegador-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioMiniNavegador-Info.plist"; sourceTree = "<group>"; };
+		A23DF88D179751A500B6A9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A23DF88F179751A500B6A9BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23DF891179751A500B6A9BE /* DesafioMiniNavegador-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioMiniNavegador-Prefix.pch"; sourceTree = "<group>"; };
+		A23DF892179751A500B6A9BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A23DF893179751A500B6A9BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A23DF895179751A500B6A9BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A23DF897179751A500B6A9BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A23DF899179751A500B6A9BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A23DF89C179751A500B6A9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A23DF89E179751A500B6A9BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A23DF89F179751A500B6A9BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23DF87D179751A500B6A9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DF884179751A500B6A9BE /* UIKit.framework in Frameworks */,
+				A23DF886179751A500B6A9BE /* Foundation.framework in Frameworks */,
+				A23DF888179751A500B6A9BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23DF877179751A400B6A9BE = {
+			isa = PBXGroup;
+			children = (
+				A23DF889179751A500B6A9BE /* DesafioMiniNavegador */,
+				A23DF882179751A500B6A9BE /* Frameworks */,
+				A23DF881179751A500B6A9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23DF881179751A500B6A9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23DF880179751A500B6A9BE /* DesafioMiniNavegador.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23DF882179751A500B6A9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23DF883179751A500B6A9BE /* UIKit.framework */,
+				A23DF885179751A500B6A9BE /* Foundation.framework */,
+				A23DF887179751A500B6A9BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23DF889179751A500B6A9BE /* DesafioMiniNavegador */ = {
+			isa = PBXGroup;
+			children = (
+				A23DF892179751A500B6A9BE /* AppDelegate.h */,
+				A23DF893179751A500B6A9BE /* AppDelegate.m */,
+				A23DF89B179751A500B6A9BE /* MainStoryboard.storyboard */,
+				A23DF89E179751A500B6A9BE /* ViewController.h */,
+				A23DF89F179751A500B6A9BE /* ViewController.m */,
+				A23DF88A179751A500B6A9BE /* Supporting Files */,
+			);
+			path = DesafioMiniNavegador;
+			sourceTree = "<group>";
+		};
+		A23DF88A179751A500B6A9BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23DF88B179751A500B6A9BE /* DesafioMiniNavegador-Info.plist */,
+				A23DF88C179751A500B6A9BE /* InfoPlist.strings */,
+				A23DF88F179751A500B6A9BE /* main.m */,
+				A23DF891179751A500B6A9BE /* DesafioMiniNavegador-Prefix.pch */,
+				A23DF895179751A500B6A9BE /* Default.png */,
+				A23DF897179751A500B6A9BE /* Default@2x.png */,
+				A23DF899179751A500B6A9BE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23DF87F179751A500B6A9BE /* DesafioMiniNavegador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23DF8A3179751A500B6A9BE /* Build configuration list for PBXNativeTarget "DesafioMiniNavegador" */;
+			buildPhases = (
+				A23DF87C179751A500B6A9BE /* Sources */,
+				A23DF87D179751A500B6A9BE /* Frameworks */,
+				A23DF87E179751A500B6A9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioMiniNavegador;
+			productName = DesafioMiniNavegador;
+			productReference = A23DF880179751A500B6A9BE /* DesafioMiniNavegador.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23DF878179751A400B6A9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A23DF87B179751A500B6A9BE /* Build configuration list for PBXProject "DesafioMiniNavegador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A23DF877179751A400B6A9BE;
+			productRefGroup = A23DF881179751A500B6A9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23DF87F179751A500B6A9BE /* DesafioMiniNavegador */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23DF87E179751A500B6A9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DF88E179751A500B6A9BE /* InfoPlist.strings in Resources */,
+				A23DF896179751A500B6A9BE /* Default.png in Resources */,
+				A23DF898179751A500B6A9BE /* Default@2x.png in Resources */,
+				A23DF89A179751A500B6A9BE /* Default-568h@2x.png in Resources */,
+				A23DF89D179751A500B6A9BE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23DF87C179751A500B6A9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DF890179751A500B6A9BE /* main.m in Sources */,
+				A23DF894179751A500B6A9BE /* AppDelegate.m in Sources */,
+				A23DF8A0179751A500B6A9BE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A23DF88C179751A500B6A9BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23DF88D179751A500B6A9BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A23DF89B179751A500B6A9BE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23DF89C179751A500B6A9BE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23DF8A1179751A500B6A9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23DF8A2179751A500B6A9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23DF8A4179751A500B6A9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioMiniNavegador/DesafioMiniNavegador-Prefix.pch";
+				INFOPLIST_FILE = "DesafioMiniNavegador/DesafioMiniNavegador-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A23DF8A5179751A500B6A9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioMiniNavegador/DesafioMiniNavegador-Prefix.pch";
+				INFOPLIST_FILE = "DesafioMiniNavegador/DesafioMiniNavegador-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23DF87B179751A500B6A9BE /* Build configuration list for PBXProject "DesafioMiniNavegador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23DF8A1179751A500B6A9BE /* Debug */,
+				A23DF8A2179751A500B6A9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23DF8A3179751A500B6A9BE /* Build configuration list for PBXNativeTarget "DesafioMiniNavegador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23DF8A4179751A500B6A9BE /* Debug */,
+				A23DF8A5179751A500B6A9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23DF878179751A400B6A9BE /* Project object */;
+}
