@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A210072C1799FF2300EDF5F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A210072B1799FF2300EDF5F8 /* UIKit.framework */; };
+		A210072E1799FF2300EDF5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A210072D1799FF2300EDF5F8 /* Foundation.framework */; };
+		A21007301799FF2300EDF5F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A210072F1799FF2300EDF5F8 /* CoreGraphics.framework */; };
+		A21007361799FF2300EDF5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A21007341799FF2300EDF5F8 /* InfoPlist.strings */; };
+		A21007381799FF2300EDF5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21007371799FF2300EDF5F8 /* main.m */; };
+		A210073C1799FF2300EDF5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A210073B1799FF2300EDF5F8 /* AppDelegate.m */; };
+		A210073E1799FF2300EDF5F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A210073D1799FF2300EDF5F8 /* Default.png */; };
+		A21007401799FF2300EDF5F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A210073F1799FF2300EDF5F8 /* Default@2x.png */; };
+		A21007421799FF2300EDF5F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21007411799FF2300EDF5F8 /* Default-568h@2x.png */; };
+		A21007451799FF2300EDF5F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21007431799FF2300EDF5F8 /* MainStoryboard.storyboard */; };
+		A21007501799FF9B00EDF5F8 /* TabelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A210074F1799FF9B00EDF5F8 /* TabelaViewController.m */; };
+		A2100753179A01E300EDF5F8 /* PratosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2100752179A01E300EDF5F8 /* PratosViewController.m */; };
+		A2100756179A01F800EDF5F8 /* SobremesasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2100755179A01F800EDF5F8 /* SobremesasViewController.m */; };
+		A2100759179A020A00EDF5F8 /* BebidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2100758179A020A00EDF5F8 /* BebidasViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A21007281799FF2300EDF5F8 /* DesafioCardapio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCardapio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A210072B1799FF2300EDF5F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A210072D1799FF2300EDF5F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A210072F1799FF2300EDF5F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A21007331799FF2300EDF5F8 /* DesafioCardapio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioCardapio-Info.plist"; sourceTree = "<group>"; };
+		A21007351799FF2300EDF5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A21007371799FF2300EDF5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A21007391799FF2300EDF5F8 /* DesafioCardapio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioCardapio-Prefix.pch"; sourceTree = "<group>"; };
+		A210073A1799FF2300EDF5F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A210073B1799FF2300EDF5F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A210073D1799FF2300EDF5F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A210073F1799FF2300EDF5F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A21007411799FF2300EDF5F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A21007441799FF2300EDF5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A210074E1799FF9B00EDF5F8 /* TabelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabelaViewController.h; path = DesafioCardapio/TabelaViewController.h; sourceTree = "<group>"; };
+		A210074F1799FF9B00EDF5F8 /* TabelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabelaViewController.m; path = DesafioCardapio/TabelaViewController.m; sourceTree = "<group>"; };
+		A2100751179A01E300EDF5F8 /* PratosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PratosViewController.h; sourceTree = "<group>"; };
+		A2100752179A01E300EDF5F8 /* PratosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PratosViewController.m; sourceTree = "<group>"; };
+		A2100754179A01F800EDF5F8 /* SobremesasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobremesasViewController.h; sourceTree = "<group>"; };
+		A2100755179A01F800EDF5F8 /* SobremesasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobremesasViewController.m; sourceTree = "<group>"; };
+		A2100757179A020A00EDF5F8 /* BebidasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BebidasViewController.h; sourceTree = "<group>"; };
+		A2100758179A020A00EDF5F8 /* BebidasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BebidasViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21007251799FF2300EDF5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A210072C1799FF2300EDF5F8 /* UIKit.framework in Frameworks */,
+				A210072E1799FF2300EDF5F8 /* Foundation.framework in Frameworks */,
+				A21007301799FF2300EDF5F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A210071F1799FF2300EDF5F8 = {
+			isa = PBXGroup;
+			children = (
+				A210074E1799FF9B00EDF5F8 /* TabelaViewController.h */,
+				A210074F1799FF9B00EDF5F8 /* TabelaViewController.m */,
+				A21007311799FF2300EDF5F8 /* DesafioCardapio */,
+				A210072A1799FF2300EDF5F8 /* Frameworks */,
+				A21007291799FF2300EDF5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A21007291799FF2300EDF5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21007281799FF2300EDF5F8 /* DesafioCardapio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A210072A1799FF2300EDF5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A210072B1799FF2300EDF5F8 /* UIKit.framework */,
+				A210072D1799FF2300EDF5F8 /* Foundation.framework */,
+				A210072F1799FF2300EDF5F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A21007311799FF2300EDF5F8 /* DesafioCardapio */ = {
+			isa = PBXGroup;
+			children = (
+				A210073A1799FF2300EDF5F8 /* AppDelegate.h */,
+				A210073B1799FF2300EDF5F8 /* AppDelegate.m */,
+				A21007431799FF2300EDF5F8 /* MainStoryboard.storyboard */,
+				A2100751179A01E300EDF5F8 /* PratosViewController.h */,
+				A2100752179A01E300EDF5F8 /* PratosViewController.m */,
+				A2100754179A01F800EDF5F8 /* SobremesasViewController.h */,
+				A2100755179A01F800EDF5F8 /* SobremesasViewController.m */,
+				A2100757179A020A00EDF5F8 /* BebidasViewController.h */,
+				A2100758179A020A00EDF5F8 /* BebidasViewController.m */,
+				A21007321799FF2300EDF5F8 /* Supporting Files */,
+			);
+			path = DesafioCardapio;
+			sourceTree = "<group>";
+		};
+		A21007321799FF2300EDF5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A21007331799FF2300EDF5F8 /* DesafioCardapio-Info.plist */,
+				A21007341799FF2300EDF5F8 /* InfoPlist.strings */,
+				A21007371799FF2300EDF5F8 /* main.m */,
+				A21007391799FF2300EDF5F8 /* DesafioCardapio-Prefix.pch */,
+				A210073D1799FF2300EDF5F8 /* Default.png */,
+				A210073F1799FF2300EDF5F8 /* Default@2x.png */,
+				A21007411799FF2300EDF5F8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21007271799FF2300EDF5F8 /* DesafioCardapio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A210074B1799FF2300EDF5F8 /* Build configuration list for PBXNativeTarget "DesafioCardapio" */;
+			buildPhases = (
+				A21007241799FF2300EDF5F8 /* Sources */,
+				A21007251799FF2300EDF5F8 /* Frameworks */,
+				A21007261799FF2300EDF5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioCardapio;
+			productName = DesafioCardapio;
+			productReference = A21007281799FF2300EDF5F8 /* DesafioCardapio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21007201799FF2300EDF5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A21007231799FF2300EDF5F8 /* Build configuration list for PBXProject "DesafioCardapio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A210071F1799FF2300EDF5F8;
+			productRefGroup = A21007291799FF2300EDF5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21007271799FF2300EDF5F8 /* DesafioCardapio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21007261799FF2300EDF5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21007361799FF2300EDF5F8 /* InfoPlist.strings in Resources */,
+				A210073E1799FF2300EDF5F8 /* Default.png in Resources */,
+				A21007401799FF2300EDF5F8 /* Default@2x.png in Resources */,
+				A21007421799FF2300EDF5F8 /* Default-568h@2x.png in Resources */,
+				A21007451799FF2300EDF5F8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21007241799FF2300EDF5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21007381799FF2300EDF5F8 /* main.m in Sources */,
+				A210073C1799FF2300EDF5F8 /* AppDelegate.m in Sources */,
+				A21007501799FF9B00EDF5F8 /* TabelaViewController.m in Sources */,
+				A2100753179A01E300EDF5F8 /* PratosViewController.m in Sources */,
+				A2100756179A01F800EDF5F8 /* SobremesasViewController.m in Sources */,
+				A2100759179A020A00EDF5F8 /* BebidasViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A21007341799FF2300EDF5F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21007351799FF2300EDF5F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A21007431799FF2300EDF5F8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21007441799FF2300EDF5F8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21007491799FF2300EDF5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A210074A1799FF2300EDF5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A210074C1799FF2300EDF5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioCardapio/DesafioCardapio-Prefix.pch";
+				INFOPLIST_FILE = "DesafioCardapio/DesafioCardapio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A210074D1799FF2300EDF5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioCardapio/DesafioCardapio-Prefix.pch";
+				INFOPLIST_FILE = "DesafioCardapio/DesafioCardapio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21007231799FF2300EDF5F8 /* Build configuration list for PBXProject "DesafioCardapio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21007491799FF2300EDF5F8 /* Debug */,
+				A210074A1799FF2300EDF5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A210074B1799FF2300EDF5F8 /* Build configuration list for PBXNativeTarget "DesafioCardapio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A210074C1799FF2300EDF5F8 /* Debug */,
+				A210074D1799FF2300EDF5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21007201799FF2300EDF5F8 /* Project object */;
+}

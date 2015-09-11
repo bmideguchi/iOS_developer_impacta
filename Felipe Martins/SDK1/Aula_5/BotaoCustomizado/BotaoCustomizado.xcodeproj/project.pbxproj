@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2FFC49B1766A97200A83D0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FFC49A1766A97200A83D0B /* UIKit.framework */; };
+		A2FFC49D1766A97200A83D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FFC49C1766A97200A83D0B /* Foundation.framework */; };
+		A2FFC49F1766A97200A83D0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FFC49E1766A97200A83D0B /* CoreGraphics.framework */; };
+		A2FFC4A51766A97200A83D0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4A31766A97200A83D0B /* InfoPlist.strings */; };
+		A2FFC4A71766A97200A83D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC4A61766A97200A83D0B /* main.m */; };
+		A2FFC4AB1766A97200A83D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC4AA1766A97200A83D0B /* AppDelegate.m */; };
+		A2FFC4AD1766A97200A83D0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4AC1766A97200A83D0B /* Default.png */; };
+		A2FFC4AF1766A97200A83D0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4AE1766A97200A83D0B /* Default@2x.png */; };
+		A2FFC4B11766A97200A83D0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4B01766A97200A83D0B /* Default-568h@2x.png */; };
+		A2FFC4B41766A97200A83D0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FFC4B31766A97200A83D0B /* ViewController.m */; };
+		A2FFC4B71766A97200A83D0B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4B51766A97200A83D0B /* ViewController.xib */; };
+		A2FFC4C21766AAE500A83D0B /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4BE1766AAE500A83D0B /* botao.png */; };
+		A2FFC4C31766AAE500A83D0B /* botao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4BF1766AAE500A83D0B /* botao@2x.png */; };
+		A2FFC4C41766AAE500A83D0B /* botaoPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4C01766AAE500A83D0B /* botaoPressed.png */; };
+		A2FFC4C51766AAE500A83D0B /* botaoPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FFC4C11766AAE500A83D0B /* botaoPressed@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2FFC4971766A97200A83D0B /* BotaoCustomizado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotaoCustomizado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FFC49A1766A97200A83D0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2FFC49C1766A97200A83D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2FFC49E1766A97200A83D0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2FFC4A21766A97200A83D0B /* BotaoCustomizado-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BotaoCustomizado-Info.plist"; sourceTree = "<group>"; };
+		A2FFC4A41766A97200A83D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2FFC4A61766A97200A83D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FFC4A81766A97200A83D0B /* BotaoCustomizado-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BotaoCustomizado-Prefix.pch"; sourceTree = "<group>"; };
+		A2FFC4A91766A97200A83D0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FFC4AA1766A97200A83D0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2FFC4AC1766A97200A83D0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2FFC4AE1766A97200A83D0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2FFC4B01766A97200A83D0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2FFC4B21766A97200A83D0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2FFC4B31766A97200A83D0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2FFC4B61766A97200A83D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A2FFC4BE1766AAE500A83D0B /* botao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botao.png; sourceTree = "<group>"; };
+		A2FFC4BF1766AAE500A83D0B /* botao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botao@2x.png"; sourceTree = "<group>"; };
+		A2FFC4C01766AAE500A83D0B /* botaoPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoPressed.png; sourceTree = "<group>"; };
+		A2FFC4C11766AAE500A83D0B /* botaoPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoPressed@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FFC4941766A97200A83D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFC49B1766A97200A83D0B /* UIKit.framework in Frameworks */,
+				A2FFC49D1766A97200A83D0B /* Foundation.framework in Frameworks */,
+				A2FFC49F1766A97200A83D0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FFC48E1766A97200A83D0B = {
+			isa = PBXGroup;
+			children = (
+				A2FFC4BD1766AAE500A83D0B /* Assets */,
+				A2FFC4A01766A97200A83D0B /* BotaoCustomizado */,
+				A2FFC4981766A97200A83D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FFC4981766A97200A83D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC4971766A97200A83D0B /* BotaoCustomizado.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FFC4991766A97200A83D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC49A1766A97200A83D0B /* UIKit.framework */,
+				A2FFC49C1766A97200A83D0B /* Foundation.framework */,
+				A2FFC49E1766A97200A83D0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A2FFC4A01766A97200A83D0B /* BotaoCustomizado */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC4A91766A97200A83D0B /* AppDelegate.h */,
+				A2FFC4AA1766A97200A83D0B /* AppDelegate.m */,
+				A2FFC4B21766A97200A83D0B /* ViewController.h */,
+				A2FFC4B51766A97200A83D0B /* ViewController.xib */,
+				A2FFC4B31766A97200A83D0B /* ViewController.m */,
+				A2FFC4991766A97200A83D0B /* Frameworks */,
+				A2FFC4A11766A97200A83D0B /* Supporting Files */,
+			);
+			path = BotaoCustomizado;
+			sourceTree = "<group>";
+		};
+		A2FFC4A11766A97200A83D0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC4A21766A97200A83D0B /* BotaoCustomizado-Info.plist */,
+				A2FFC4A31766A97200A83D0B /* InfoPlist.strings */,
+				A2FFC4A61766A97200A83D0B /* main.m */,
+				A2FFC4A81766A97200A83D0B /* BotaoCustomizado-Prefix.pch */,
+				A2FFC4AC1766A97200A83D0B /* Default.png */,
+				A2FFC4AE1766A97200A83D0B /* Default@2x.png */,
+				A2FFC4B01766A97200A83D0B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FFC4BD1766AAE500A83D0B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFC4BE1766AAE500A83D0B /* botao.png */,
+				A2FFC4BF1766AAE500A83D0B /* botao@2x.png */,
+				A2FFC4C01766AAE500A83D0B /* botaoPressed.png */,
+				A2FFC4C11766AAE500A83D0B /* botaoPressed@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FFC4961766A97200A83D0B /* BotaoCustomizado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FFC4BA1766A97200A83D0B /* Build configuration list for PBXNativeTarget "BotaoCustomizado" */;
+			buildPhases = (
+				A2FFC4931766A97200A83D0B /* Sources */,
+				A2FFC4941766A97200A83D0B /* Frameworks */,
+				A2FFC4951766A97200A83D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotaoCustomizado;
+			productName = BotaoCustomizado;
+			productReference = A2FFC4971766A97200A83D0B /* BotaoCustomizado.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FFC48F1766A97200A83D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A2FFC4921766A97200A83D0B /* Build configuration list for PBXProject "BotaoCustomizado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2FFC48E1766A97200A83D0B;
+			productRefGroup = A2FFC4981766A97200A83D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FFC4961766A97200A83D0B /* BotaoCustomizado */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FFC4951766A97200A83D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFC4A51766A97200A83D0B /* InfoPlist.strings in Resources */,
+				A2FFC4AD1766A97200A83D0B /* Default.png in Resources */,
+				A2FFC4AF1766A97200A83D0B /* Default@2x.png in Resources */,
+				A2FFC4B11766A97200A83D0B /* Default-568h@2x.png in Resources */,
+				A2FFC4B71766A97200A83D0B /* ViewController.xib in Resources */,
+				A2FFC4C21766AAE500A83D0B /* botao.png in Resources */,
+				A2FFC4C31766AAE500A83D0B /* botao@2x.png in Resources */,
+				A2FFC4C41766AAE500A83D0B /* botaoPressed.png in Resources */,
+				A2FFC4C51766AAE500A83D0B /* botaoPressed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FFC4931766A97200A83D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FFC4A71766A97200A83D0B /* main.m in Sources */,
+				A2FFC4AB1766A97200A83D0B /* AppDelegate.m in Sources */,
+				A2FFC4B41766A97200A83D0B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2FFC4A31766A97200A83D0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FFC4A41766A97200A83D0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2FFC4B51766A97200A83D0B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FFC4B61766A97200A83D0B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FFC4B81766A97200A83D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2FFC4B91766A97200A83D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FFC4BB1766A97200A83D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BotaoCustomizado/BotaoCustomizado-Prefix.pch";
+				INFOPLIST_FILE = "BotaoCustomizado/BotaoCustomizado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2FFC4BC1766A97200A83D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BotaoCustomizado/BotaoCustomizado-Prefix.pch";
+				INFOPLIST_FILE = "BotaoCustomizado/BotaoCustomizado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FFC4921766A97200A83D0B /* Build configuration list for PBXProject "BotaoCustomizado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFC4B81766A97200A83D0B /* Debug */,
+				A2FFC4B91766A97200A83D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FFC4BA1766A97200A83D0B /* Build configuration list for PBXNativeTarget "BotaoCustomizado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FFC4BB1766A97200A83D0B /* Debug */,
+				A2FFC4BC1766A97200A83D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FFC48F1766A97200A83D0B /* Project object */;
+}

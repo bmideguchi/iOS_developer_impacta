@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2717905177900C600FB1238 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2717904177900C600FB1238 /* UIKit.framework */; };
+		A2717907177900C600FB1238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2717906177900C600FB1238 /* Foundation.framework */; };
+		A2717909177900C600FB1238 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2717908177900C600FB1238 /* CoreGraphics.framework */; };
+		A271790F177900C600FB1238 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A271790D177900C600FB1238 /* InfoPlist.strings */; };
+		A2717911177900C600FB1238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2717910177900C600FB1238 /* main.m */; };
+		A2717915177900C600FB1238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2717914177900C600FB1238 /* AppDelegate.m */; };
+		A2717917177900C600FB1238 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2717916177900C600FB1238 /* Default.png */; };
+		A2717919177900C600FB1238 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2717918177900C600FB1238 /* Default@2x.png */; };
+		A271791B177900C600FB1238 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A271791A177900C600FB1238 /* Default-568h@2x.png */; };
+		A271791E177900C600FB1238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A271791D177900C600FB1238 /* ViewController.m */; };
+		A2717921177900C600FB1238 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A271791F177900C600FB1238 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2717901177900C600FB1238 /* DesafioCadastroCliente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCadastroCliente.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2717904177900C600FB1238 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2717906177900C600FB1238 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2717908177900C600FB1238 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A271790C177900C600FB1238 /* DesafioCadastroCliente-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioCadastroCliente-Info.plist"; sourceTree = "<group>"; };
+		A271790E177900C600FB1238 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2717910177900C600FB1238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2717912177900C600FB1238 /* DesafioCadastroCliente-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioCadastroCliente-Prefix.pch"; sourceTree = "<group>"; };
+		A2717913177900C600FB1238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2717914177900C600FB1238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2717916177900C600FB1238 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2717918177900C600FB1238 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A271791A177900C600FB1238 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A271791C177900C600FB1238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A271791D177900C600FB1238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2717920177900C600FB1238 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27178FE177900C600FB1238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2717905177900C600FB1238 /* UIKit.framework in Frameworks */,
+				A2717907177900C600FB1238 /* Foundation.framework in Frameworks */,
+				A2717909177900C600FB1238 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27178F8177900C600FB1238 = {
+			isa = PBXGroup;
+			children = (
+				A271790A177900C600FB1238 /* DesafioCadastroCliente */,
+				A2717903177900C600FB1238 /* Frameworks */,
+				A2717902177900C600FB1238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2717902177900C600FB1238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2717901177900C600FB1238 /* DesafioCadastroCliente.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2717903177900C600FB1238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2717904177900C600FB1238 /* UIKit.framework */,
+				A2717906177900C600FB1238 /* Foundation.framework */,
+				A2717908177900C600FB1238 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A271790A177900C600FB1238 /* DesafioCadastroCliente */ = {
+			isa = PBXGroup;
+			children = (
+				A2717913177900C600FB1238 /* AppDelegate.h */,
+				A2717914177900C600FB1238 /* AppDelegate.m */,
+				A271791C177900C600FB1238 /* ViewController.h */,
+				A271791D177900C600FB1238 /* ViewController.m */,
+				A271791F177900C600FB1238 /* ViewController.xib */,
+				A271790B177900C600FB1238 /* Supporting Files */,
+			);
+			path = DesafioCadastroCliente;
+			sourceTree = "<group>";
+		};
+		A271790B177900C600FB1238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A271790C177900C600FB1238 /* DesafioCadastroCliente-Info.plist */,
+				A271790D177900C600FB1238 /* InfoPlist.strings */,
+				A2717910177900C600FB1238 /* main.m */,
+				A2717912177900C600FB1238 /* DesafioCadastroCliente-Prefix.pch */,
+				A2717916177900C600FB1238 /* Default.png */,
+				A2717918177900C600FB1238 /* Default@2x.png */,
+				A271791A177900C600FB1238 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2717900177900C600FB1238 /* DesafioCadastroCliente */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2717924177900C600FB1238 /* Build configuration list for PBXNativeTarget "DesafioCadastroCliente" */;
+			buildPhases = (
+				A27178FD177900C600FB1238 /* Sources */,
+				A27178FE177900C600FB1238 /* Frameworks */,
+				A27178FF177900C600FB1238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioCadastroCliente;
+			productName = DesafioCadastroCliente;
+			productReference = A2717901177900C600FB1238 /* DesafioCadastroCliente.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27178F9177900C600FB1238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A27178FC177900C600FB1238 /* Build configuration list for PBXProject "DesafioCadastroCliente" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A27178F8177900C600FB1238;
+			productRefGroup = A2717902177900C600FB1238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2717900177900C600FB1238 /* DesafioCadastroCliente */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27178FF177900C600FB1238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271790F177900C600FB1238 /* InfoPlist.strings in Resources */,
+				A2717917177900C600FB1238 /* Default.png in Resources */,
+				A2717919177900C600FB1238 /* Default@2x.png in Resources */,
+				A271791B177900C600FB1238 /* Default-568h@2x.png in Resources */,
+				A2717921177900C600FB1238 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27178FD177900C600FB1238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2717911177900C600FB1238 /* main.m in Sources */,
+				A2717915177900C600FB1238 /* AppDelegate.m in Sources */,
+				A271791E177900C600FB1238 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A271790D177900C600FB1238 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A271790E177900C600FB1238 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A271791F177900C600FB1238 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2717920177900C600FB1238 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2717922177900C600FB1238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2717923177900C600FB1238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2717925177900C600FB1238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioCadastroCliente/DesafioCadastroCliente-Prefix.pch";
+				INFOPLIST_FILE = "DesafioCadastroCliente/DesafioCadastroCliente-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2717926177900C600FB1238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioCadastroCliente/DesafioCadastroCliente-Prefix.pch";
+				INFOPLIST_FILE = "DesafioCadastroCliente/DesafioCadastroCliente-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27178FC177900C600FB1238 /* Build configuration list for PBXProject "DesafioCadastroCliente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2717922177900C600FB1238 /* Debug */,
+				A2717923177900C600FB1238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2717924177900C600FB1238 /* Build configuration list for PBXNativeTarget "DesafioCadastroCliente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2717925177900C600FB1238 /* Debug */,
+				A2717926177900C600FB1238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27178F9177900C600FB1238 /* Project object */;
+}

@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A235286017693A5B00EDB572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A235285F17693A5B00EDB572 /* UIKit.framework */; };
+		A235286217693A5B00EDB572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A235286117693A5B00EDB572 /* Foundation.framework */; };
+		A235286417693A5B00EDB572 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A235286317693A5B00EDB572 /* CoreGraphics.framework */; };
+		A235286A17693A5B00EDB572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A235286817693A5B00EDB572 /* InfoPlist.strings */; };
+		A235286C17693A5B00EDB572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A235286B17693A5B00EDB572 /* main.m */; };
+		A235287017693A5B00EDB572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A235286F17693A5B00EDB572 /* AppDelegate.m */; };
+		A235287217693A5B00EDB572 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A235287117693A5B00EDB572 /* Default.png */; };
+		A235287417693A5B00EDB572 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A235287317693A5B00EDB572 /* Default@2x.png */; };
+		A235287617693A5B00EDB572 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A235287517693A5B00EDB572 /* Default-568h@2x.png */; };
+		A235287917693A5B00EDB572 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A235287817693A5B00EDB572 /* ViewController.m */; };
+		A235287C17693A5B00EDB572 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A235287A17693A5B00EDB572 /* ViewController.xib */; };
+		A235288517693AB700EDB572 /* BotaoLanterna.png in Resources */ = {isa = PBXBuildFile; fileRef = A235288317693AB700EDB572 /* BotaoLanterna.png */; };
+		A235288617693AB700EDB572 /* BotaoLanterna@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A235288417693AB700EDB572 /* BotaoLanterna@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A235285C17693A5B00EDB572 /* DesafioLanterna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioLanterna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A235285F17693A5B00EDB572 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A235286117693A5B00EDB572 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A235286317693A5B00EDB572 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A235286717693A5B00EDB572 /* DesafioLanterna-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioLanterna-Info.plist"; sourceTree = "<group>"; };
+		A235286917693A5B00EDB572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A235286B17693A5B00EDB572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A235286D17693A5B00EDB572 /* DesafioLanterna-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioLanterna-Prefix.pch"; sourceTree = "<group>"; };
+		A235286E17693A5B00EDB572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A235286F17693A5B00EDB572 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A235287117693A5B00EDB572 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A235287317693A5B00EDB572 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A235287517693A5B00EDB572 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A235287717693A5B00EDB572 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A235287817693A5B00EDB572 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A235287B17693A5B00EDB572 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A235288317693AB700EDB572 /* BotaoLanterna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotaoLanterna.png; sourceTree = "<group>"; };
+		A235288417693AB700EDB572 /* BotaoLanterna@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotaoLanterna@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A235285917693A5B00EDB572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235286017693A5B00EDB572 /* UIKit.framework in Frameworks */,
+				A235286217693A5B00EDB572 /* Foundation.framework in Frameworks */,
+				A235286417693A5B00EDB572 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A235285317693A5B00EDB572 = {
+			isa = PBXGroup;
+			children = (
+				A235286517693A5B00EDB572 /* DesafioLanterna */,
+				A235285E17693A5B00EDB572 /* Frameworks */,
+				A235285D17693A5B00EDB572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A235285D17693A5B00EDB572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A235285C17693A5B00EDB572 /* DesafioLanterna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A235285E17693A5B00EDB572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A235285F17693A5B00EDB572 /* UIKit.framework */,
+				A235286117693A5B00EDB572 /* Foundation.framework */,
+				A235286317693A5B00EDB572 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A235286517693A5B00EDB572 /* DesafioLanterna */ = {
+			isa = PBXGroup;
+			children = (
+				A235286E17693A5B00EDB572 /* AppDelegate.h */,
+				A235286F17693A5B00EDB572 /* AppDelegate.m */,
+				A235288217693AB700EDB572 /* Assets2 */,
+				A235287717693A5B00EDB572 /* ViewController.h */,
+				A235287817693A5B00EDB572 /* ViewController.m */,
+				A235287A17693A5B00EDB572 /* ViewController.xib */,
+				A235286617693A5B00EDB572 /* Supporting Files */,
+			);
+			path = DesafioLanterna;
+			sourceTree = "<group>";
+		};
+		A235286617693A5B00EDB572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A235286717693A5B00EDB572 /* DesafioLanterna-Info.plist */,
+				A235286817693A5B00EDB572 /* InfoPlist.strings */,
+				A235286B17693A5B00EDB572 /* main.m */,
+				A235286D17693A5B00EDB572 /* DesafioLanterna-Prefix.pch */,
+				A235287117693A5B00EDB572 /* Default.png */,
+				A235287317693A5B00EDB572 /* Default@2x.png */,
+				A235287517693A5B00EDB572 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A235288217693AB700EDB572 /* Assets2 */ = {
+			isa = PBXGroup;
+			children = (
+				A235288317693AB700EDB572 /* BotaoLanterna.png */,
+				A235288417693AB700EDB572 /* BotaoLanterna@2x.png */,
+			);
+			path = Assets2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A235285B17693A5B00EDB572 /* DesafioLanterna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A235287F17693A5B00EDB572 /* Build configuration list for PBXNativeTarget "DesafioLanterna" */;
+			buildPhases = (
+				A235285817693A5B00EDB572 /* Sources */,
+				A235285917693A5B00EDB572 /* Frameworks */,
+				A235285A17693A5B00EDB572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioLanterna;
+			productName = DesafioLanterna;
+			productReference = A235285C17693A5B00EDB572 /* DesafioLanterna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A235285417693A5B00EDB572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A235285717693A5B00EDB572 /* Build configuration list for PBXProject "DesafioLanterna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A235285317693A5B00EDB572;
+			productRefGroup = A235285D17693A5B00EDB572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A235285B17693A5B00EDB572 /* DesafioLanterna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A235285A17693A5B00EDB572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235286A17693A5B00EDB572 /* InfoPlist.strings in Resources */,
+				A235287217693A5B00EDB572 /* Default.png in Resources */,
+				A235287417693A5B00EDB572 /* Default@2x.png in Resources */,
+				A235287617693A5B00EDB572 /* Default-568h@2x.png in Resources */,
+				A235287C17693A5B00EDB572 /* ViewController.xib in Resources */,
+				A235288517693AB700EDB572 /* BotaoLanterna.png in Resources */,
+				A235288617693AB700EDB572 /* BotaoLanterna@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A235285817693A5B00EDB572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235286C17693A5B00EDB572 /* main.m in Sources */,
+				A235287017693A5B00EDB572 /* AppDelegate.m in Sources */,
+				A235287917693A5B00EDB572 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A235286817693A5B00EDB572 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A235286917693A5B00EDB572 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A235287A17693A5B00EDB572 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A235287B17693A5B00EDB572 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A235287D17693A5B00EDB572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A235287E17693A5B00EDB572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A235288017693A5B00EDB572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioLanterna/DesafioLanterna-Prefix.pch";
+				INFOPLIST_FILE = "DesafioLanterna/DesafioLanterna-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A235288117693A5B00EDB572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioLanterna/DesafioLanterna-Prefix.pch";
+				INFOPLIST_FILE = "DesafioLanterna/DesafioLanterna-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A235285717693A5B00EDB572 /* Build configuration list for PBXProject "DesafioLanterna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A235287D17693A5B00EDB572 /* Debug */,
+				A235287E17693A5B00EDB572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A235287F17693A5B00EDB572 /* Build configuration list for PBXNativeTarget "DesafioLanterna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A235288017693A5B00EDB572 /* Debug */,
+				A235288117693A5B00EDB572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A235285417693A5B00EDB572 /* Project object */;
+}

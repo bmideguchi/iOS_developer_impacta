@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A230984D179DF30400F3AE3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230984C179DF30400F3AE3E /* UIKit.framework */; };
+		A230984F179DF30400F3AE3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230984E179DF30400F3AE3E /* Foundation.framework */; };
+		A2309851179DF30400F3AE3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2309850179DF30400F3AE3E /* CoreGraphics.framework */; };
+		A2309857179DF30400F3AE3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2309855179DF30400F3AE3E /* InfoPlist.strings */; };
+		A2309859179DF30400F3AE3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2309858179DF30400F3AE3E /* main.m */; };
+		A230985D179DF30400F3AE3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A230985C179DF30400F3AE3E /* AppDelegate.m */; };
+		A230985F179DF30400F3AE3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A230985E179DF30400F3AE3E /* Default.png */; };
+		A2309861179DF30400F3AE3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2309860179DF30400F3AE3E /* Default@2x.png */; };
+		A2309863179DF30400F3AE3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2309862179DF30400F3AE3E /* Default-568h@2x.png */; };
+		A2309866179DF30400F3AE3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2309864179DF30400F3AE3E /* MainStoryboard.storyboard */; };
+		A2309869179DF30400F3AE3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2309868179DF30400F3AE3E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2309849179DF30400F3AE3E /* DesafioViewMaluca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioViewMaluca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230984C179DF30400F3AE3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A230984E179DF30400F3AE3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2309850179DF30400F3AE3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2309854179DF30400F3AE3E /* DesafioViewMaluca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesafioViewMaluca-Info.plist"; sourceTree = "<group>"; };
+		A2309856179DF30400F3AE3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2309858179DF30400F3AE3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A230985A179DF30400F3AE3E /* DesafioViewMaluca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioViewMaluca-Prefix.pch"; sourceTree = "<group>"; };
+		A230985B179DF30400F3AE3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A230985C179DF30400F3AE3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A230985E179DF30400F3AE3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2309860179DF30400F3AE3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2309862179DF30400F3AE3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2309865179DF30400F3AE3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A2309867179DF30400F3AE3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2309868179DF30400F3AE3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2309846179DF30400F3AE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230984D179DF30400F3AE3E /* UIKit.framework in Frameworks */,
+				A230984F179DF30400F3AE3E /* Foundation.framework in Frameworks */,
+				A2309851179DF30400F3AE3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2309840179DF30400F3AE3E = {
+			isa = PBXGroup;
+			children = (
+				A2309852179DF30400F3AE3E /* DesafioViewMaluca */,
+				A230984B179DF30400F3AE3E /* Frameworks */,
+				A230984A179DF30400F3AE3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A230984A179DF30400F3AE3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2309849179DF30400F3AE3E /* DesafioViewMaluca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A230984B179DF30400F3AE3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A230984C179DF30400F3AE3E /* UIKit.framework */,
+				A230984E179DF30400F3AE3E /* Foundation.framework */,
+				A2309850179DF30400F3AE3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2309852179DF30400F3AE3E /* DesafioViewMaluca */ = {
+			isa = PBXGroup;
+			children = (
+				A230985B179DF30400F3AE3E /* AppDelegate.h */,
+				A230985C179DF30400F3AE3E /* AppDelegate.m */,
+				A2309864179DF30400F3AE3E /* MainStoryboard.storyboard */,
+				A2309867179DF30400F3AE3E /* ViewController.h */,
+				A2309868179DF30400F3AE3E /* ViewController.m */,
+				A2309853179DF30400F3AE3E /* Supporting Files */,
+			);
+			path = DesafioViewMaluca;
+			sourceTree = "<group>";
+		};
+		A2309853179DF30400F3AE3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2309854179DF30400F3AE3E /* DesafioViewMaluca-Info.plist */,
+				A2309855179DF30400F3AE3E /* InfoPlist.strings */,
+				A2309858179DF30400F3AE3E /* main.m */,
+				A230985A179DF30400F3AE3E /* DesafioViewMaluca-Prefix.pch */,
+				A230985E179DF30400F3AE3E /* Default.png */,
+				A2309860179DF30400F3AE3E /* Default@2x.png */,
+				A2309862179DF30400F3AE3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2309848179DF30400F3AE3E /* DesafioViewMaluca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230986C179DF30400F3AE3E /* Build configuration list for PBXNativeTarget "DesafioViewMaluca" */;
+			buildPhases = (
+				A2309845179DF30400F3AE3E /* Sources */,
+				A2309846179DF30400F3AE3E /* Frameworks */,
+				A2309847179DF30400F3AE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioViewMaluca;
+			productName = DesafioViewMaluca;
+			productReference = A2309849179DF30400F3AE3E /* DesafioViewMaluca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2309841179DF30400F3AE3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A2309844179DF30400F3AE3E /* Build configuration list for PBXProject "DesafioViewMaluca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2309840179DF30400F3AE3E;
+			productRefGroup = A230984A179DF30400F3AE3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2309848179DF30400F3AE3E /* DesafioViewMaluca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2309847179DF30400F3AE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2309857179DF30400F3AE3E /* InfoPlist.strings in Resources */,
+				A230985F179DF30400F3AE3E /* Default.png in Resources */,
+				A2309861179DF30400F3AE3E /* Default@2x.png in Resources */,
+				A2309863179DF30400F3AE3E /* Default-568h@2x.png in Resources */,
+				A2309866179DF30400F3AE3E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2309845179DF30400F3AE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2309859179DF30400F3AE3E /* main.m in Sources */,
+				A230985D179DF30400F3AE3E /* AppDelegate.m in Sources */,
+				A2309869179DF30400F3AE3E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2309855179DF30400F3AE3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2309856179DF30400F3AE3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2309864179DF30400F3AE3E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2309865179DF30400F3AE3E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A230986A179DF30400F3AE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A230986B179DF30400F3AE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A230986D179DF30400F3AE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioViewMaluca/DesafioViewMaluca-Prefix.pch";
+				INFOPLIST_FILE = "DesafioViewMaluca/DesafioViewMaluca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A230986E179DF30400F3AE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DesafioViewMaluca/DesafioViewMaluca-Prefix.pch";
+				INFOPLIST_FILE = "DesafioViewMaluca/DesafioViewMaluca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2309844179DF30400F3AE3E /* Build configuration list for PBXProject "DesafioViewMaluca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230986A179DF30400F3AE3E /* Debug */,
+				A230986B179DF30400F3AE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230986C179DF30400F3AE3E /* Build configuration list for PBXNativeTarget "DesafioViewMaluca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230986D179DF30400F3AE3E /* Debug */,
+				A230986E179DF30400F3AE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2309841179DF30400F3AE3E /* Project object */;
+}

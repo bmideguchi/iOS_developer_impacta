@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20DFF521744625E007BDC05 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A20DFF511744625E007BDC05 /* main.c */; };
+		A20DFF541744625E007BDC05 /* Desafio_Tabuada.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A20DFF531744625E007BDC05 /* Desafio_Tabuada.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A20DFF4C1744625E007BDC05 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A20DFF541744625E007BDC05 /* Desafio_Tabuada.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20DFF4E1744625E007BDC05 /* Desafio Tabuada */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Desafio Tabuada"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20DFF511744625E007BDC05 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A20DFF531744625E007BDC05 /* Desafio_Tabuada.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Desafio_Tabuada.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20DFF4B1744625E007BDC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20DFF451744625E007BDC05 = {
+			isa = PBXGroup;
+			children = (
+				A20DFF501744625E007BDC05 /* Desafio Tabuada */,
+				A20DFF4F1744625E007BDC05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20DFF4F1744625E007BDC05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20DFF4E1744625E007BDC05 /* Desafio Tabuada */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20DFF501744625E007BDC05 /* Desafio Tabuada */ = {
+			isa = PBXGroup;
+			children = (
+				A20DFF511744625E007BDC05 /* main.c */,
+				A20DFF531744625E007BDC05 /* Desafio_Tabuada.1 */,
+			);
+			path = "Desafio Tabuada";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20DFF4D1744625E007BDC05 /* Desafio Tabuada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20DFF571744625E007BDC05 /* Build configuration list for PBXNativeTarget "Desafio Tabuada" */;
+			buildPhases = (
+				A20DFF4A1744625E007BDC05 /* Sources */,
+				A20DFF4B1744625E007BDC05 /* Frameworks */,
+				A20DFF4C1744625E007BDC05 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio Tabuada";
+			productName = "Desafio Tabuada";
+			productReference = A20DFF4E1744625E007BDC05 /* Desafio Tabuada */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20DFF461744625E007BDC05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Felipe Martins";
+			};
+			buildConfigurationList = A20DFF491744625E007BDC05 /* Build configuration list for PBXProject "Desafio Tabuada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A20DFF451744625E007BDC05;
+			productRefGroup = A20DFF4F1744625E007BDC05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20DFF4D1744625E007BDC05 /* Desafio Tabuada */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20DFF4A1744625E007BDC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20DFF521744625E007BDC05 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A20DFF551744625E007BDC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A20DFF561744625E007BDC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A20DFF581744625E007BDC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A20DFF591744625E007BDC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20DFF491744625E007BDC05 /* Build configuration list for PBXProject "Desafio Tabuada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20DFF551744625E007BDC05 /* Debug */,
+				A20DFF561744625E007BDC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20DFF571744625E007BDC05 /* Build configuration list for PBXNativeTarget "Desafio Tabuada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20DFF581744625E007BDC05 /* Debug */,
+				A20DFF591744625E007BDC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20DFF461744625E007BDC05 /* Project object */;
+}

@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D957EE17C2F3F6004A8D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D957ED17C2F3F6004A8D06 /* UIKit.framework */; };
+		25D957F017C2F3F6004A8D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D957EF17C2F3F6004A8D06 /* Foundation.framework */; };
+		25D957F217C2F3F6004A8D06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D957F117C2F3F6004A8D06 /* CoreGraphics.framework */; };
+		25D957F817C2F3F6004A8D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25D957F617C2F3F6004A8D06 /* InfoPlist.strings */; };
+		25D957FA17C2F3F6004A8D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D957F917C2F3F6004A8D06 /* main.m */; };
+		25D957FE17C2F3F6004A8D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D957FD17C2F3F6004A8D06 /* AppDelegate.m */; };
+		25D9580017C2F3F6004A8D06 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D957FF17C2F3F6004A8D06 /* Default.png */; };
+		25D9580217C2F3F6004A8D06 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D9580117C2F3F6004A8D06 /* Default@2x.png */; };
+		25D9580417C2F3F6004A8D06 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D9580317C2F3F6004A8D06 /* Default-568h@2x.png */; };
+		25D9580717C2F3F6004A8D06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D9580517C2F3F6004A8D06 /* MainStoryboard.storyboard */; };
+		25D9580A17C2F3F6004A8D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D9580917C2F3F6004A8D06 /* ViewController.m */; };
+		25D9581117C2F57C004A8D06 /* bravo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D9581017C2F57C004A8D06 /* bravo.png */; };
+		25D9581317C2F5A7004A8D06 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D9581217C2F5A7004A8D06 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D957EA17C2F3F6004A8D06 /* desafioCABasicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioCABasicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D957ED17C2F3F6004A8D06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25D957EF17C2F3F6004A8D06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25D957F117C2F3F6004A8D06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25D957F517C2F3F6004A8D06 /* desafioCABasicAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafioCABasicAnimation-Info.plist"; sourceTree = "<group>"; };
+		25D957F717C2F3F6004A8D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25D957F917C2F3F6004A8D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25D957FB17C2F3F6004A8D06 /* desafioCABasicAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desafioCABasicAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		25D957FC17C2F3F6004A8D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25D957FD17C2F3F6004A8D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25D957FF17C2F3F6004A8D06 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25D9580117C2F3F6004A8D06 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25D9580317C2F3F6004A8D06 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25D9580617C2F3F6004A8D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25D9580817C2F3F6004A8D06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25D9580917C2F3F6004A8D06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25D9581017C2F57C004A8D06 /* bravo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bravo.png; path = ../../CABasicAnimation/CABasicAnimation/Assets/bravo.png; sourceTree = "<group>"; };
+		25D9581217C2F5A7004A8D06 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D957E717C2F3F6004A8D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D9581317C2F5A7004A8D06 /* QuartzCore.framework in Frameworks */,
+				25D957EE17C2F3F6004A8D06 /* UIKit.framework in Frameworks */,
+				25D957F017C2F3F6004A8D06 /* Foundation.framework in Frameworks */,
+				25D957F217C2F3F6004A8D06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D957E117C2F3F6004A8D06 = {
+			isa = PBXGroup;
+			children = (
+				25D9581217C2F5A7004A8D06 /* QuartzCore.framework */,
+				25D957F317C2F3F6004A8D06 /* desafioCABasicAnimation */,
+				25D957EC17C2F3F6004A8D06 /* Frameworks */,
+				25D957EB17C2F3F6004A8D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25D957EB17C2F3F6004A8D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D957EA17C2F3F6004A8D06 /* desafioCABasicAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D957EC17C2F3F6004A8D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D957ED17C2F3F6004A8D06 /* UIKit.framework */,
+				25D957EF17C2F3F6004A8D06 /* Foundation.framework */,
+				25D957F117C2F3F6004A8D06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D957F317C2F3F6004A8D06 /* desafioCABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				25D957FC17C2F3F6004A8D06 /* AppDelegate.h */,
+				25D957FD17C2F3F6004A8D06 /* AppDelegate.m */,
+				25D9580517C2F3F6004A8D06 /* MainStoryboard.storyboard */,
+				25D9580817C2F3F6004A8D06 /* ViewController.h */,
+				25D9580917C2F3F6004A8D06 /* ViewController.m */,
+				25D9581017C2F57C004A8D06 /* bravo.png */,
+				25D957F417C2F3F6004A8D06 /* Supporting Files */,
+			);
+			path = desafioCABasicAnimation;
+			sourceTree = "<group>";
+		};
+		25D957F417C2F3F6004A8D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D957F517C2F3F6004A8D06 /* desafioCABasicAnimation-Info.plist */,
+				25D957F617C2F3F6004A8D06 /* InfoPlist.strings */,
+				25D957F917C2F3F6004A8D06 /* main.m */,
+				25D957FB17C2F3F6004A8D06 /* desafioCABasicAnimation-Prefix.pch */,
+				25D957FF17C2F3F6004A8D06 /* Default.png */,
+				25D9580117C2F3F6004A8D06 /* Default@2x.png */,
+				25D9580317C2F3F6004A8D06 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D957E917C2F3F6004A8D06 /* desafioCABasicAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D9580D17C2F3F6004A8D06 /* Build configuration list for PBXNativeTarget "desafioCABasicAnimation" */;
+			buildPhases = (
+				25D957E617C2F3F6004A8D06 /* Sources */,
+				25D957E717C2F3F6004A8D06 /* Frameworks */,
+				25D957E817C2F3F6004A8D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioCABasicAnimation;
+			productName = desafioCABasicAnimation;
+			productReference = 25D957EA17C2F3F6004A8D06 /* desafioCABasicAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D957E217C2F3F6004A8D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BrunoIdeguchi;
+			};
+			buildConfigurationList = 25D957E517C2F3F6004A8D06 /* Build configuration list for PBXProject "desafioCABasicAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25D957E117C2F3F6004A8D06;
+			productRefGroup = 25D957EB17C2F3F6004A8D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D957E917C2F3F6004A8D06 /* desafioCABasicAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D957E817C2F3F6004A8D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D957F817C2F3F6004A8D06 /* InfoPlist.strings in Resources */,
+				25D9580017C2F3F6004A8D06 /* Default.png in Resources */,
+				25D9580217C2F3F6004A8D06 /* Default@2x.png in Resources */,
+				25D9580417C2F3F6004A8D06 /* Default-568h@2x.png in Resources */,
+				25D9580717C2F3F6004A8D06 /* MainStoryboard.storyboard in Resources */,
+				25D9581117C2F57C004A8D06 /* bravo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D957E617C2F3F6004A8D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D957FA17C2F3F6004A8D06 /* main.m in Sources */,
+				25D957FE17C2F3F6004A8D06 /* AppDelegate.m in Sources */,
+				25D9580A17C2F3F6004A8D06 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25D957F617C2F3F6004A8D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D957F717C2F3F6004A8D06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25D9580517C2F3F6004A8D06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D9580617C2F3F6004A8D06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25D9580B17C2F3F6004A8D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25D9580C17C2F3F6004A8D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D9580E17C2F3F6004A8D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioCABasicAnimation/desafioCABasicAnimation-Prefix.pch";
+				INFOPLIST_FILE = "desafioCABasicAnimation/desafioCABasicAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25D9580F17C2F3F6004A8D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioCABasicAnimation/desafioCABasicAnimation-Prefix.pch";
+				INFOPLIST_FILE = "desafioCABasicAnimation/desafioCABasicAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D957E517C2F3F6004A8D06 /* Build configuration list for PBXProject "desafioCABasicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D9580B17C2F3F6004A8D06 /* Debug */,
+				25D9580C17C2F3F6004A8D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D9580D17C2F3F6004A8D06 /* Build configuration list for PBXNativeTarget "desafioCABasicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D9580E17C2F3F6004A8D06 /* Debug */,
+				25D9580F17C2F3F6004A8D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25D957E217C2F3F6004A8D06 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'categorias' target in the 'categorias' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
